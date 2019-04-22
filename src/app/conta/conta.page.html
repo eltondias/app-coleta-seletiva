@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-icon slot="start" name="arrow-back" [routerLink]="['/','login']"></ion-icon>
+    </ion-buttons>
+    <ion-title>
+      Registro de conta
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <!-- <form name="editForm" role="form" (ngSubmit)="save()" #editForm="ngForm">
+
+
+    <div class="container p-4">
+
+      <div class="row mb-5"></div>
+
+      <div class="row">
+        <div class="col-sm">
+
+          <ion-item>
+            <ion-input type="text" placeholder="Nome ou razão social" name="nome" [(ngModel)]="participante.nome"
+              required>
+            </ion-input>
+          </ion-item>
+ 
+          <ion-item>
+            <ion-input type="email" placeholder="Email" name="email" [(ngModel)]="usuario.login" required></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-input type="password" placeholder="Senha" name="senha" [(ngModel)]="usuario.senha" required>
+            </ion-input>
+          </ion-item>
+
+        </div>
+      </div>
+
+      <div class="row mb-4"></div>
+      <div class="row">
+        <div class="col-sm">
+          <ion-button expand="full" type="submit" color="primary" [disabled]="editForm.form.invalid">
+            AVANÇAR
+            <ion-icon slot="end" name="arrow-forward"></ion-icon>
+          </ion-button>
+        </div>
+      </div>
+    </div>
+
+
+  </form> -->
+
+
+  <div class="splash-bg"></div>
+  <div class="splash-info" >
+    <div class="splash-logo"></div>
+    <div class="splash-intro">
+      <p>Olá,   </p>
+      <h4>Gostaria de participar como?</h4>
+    </div>
+  </div>
+  
+
+  <div class="container p-4">    
+      <ion-button expand="block" color="warning" class="mb-3" (click)="saveColetor()"  >Quero doar resíduos</ion-button>
+      <ion-button expand="block" color="success"  >Quero coletar resíduos</ion-button>    
+  </div>
+
+
+
+
+
+</ion-content>

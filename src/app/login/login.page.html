@@ -1,0 +1,24 @@
+<div class="splash-bg"></div>
+<div class="splash-info">
+  <div class="splash-logo"></div>
+  <div class="splash-intro">
+    Unindo forças por um mundo melhor.
+  </div>
+</div>
+
+<ion-content scroll="false">
+  <div class="container p-4">
+    <div class="row mb-4">
+      <div class="col-sm">
+          <ion-item>
+              <ion-input type="email" placeholder="Email"  name="email"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input type="password" placeholder="Senha"   name="senha"></ion-input>
+            </ion-item>      
+      </div>      
+    </div>
+    <ion-button expand="block" color="primary" class="mb-3">Entrar</ion-button>
+    <ion-button expand="block" color="light" [routerLink]="['/conta']" >Criar conta</ion-button>    
+  </div>
+</ion-content>
